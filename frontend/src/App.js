@@ -28,8 +28,8 @@ function App() {
       <div className="container">
         
         <div>
-        <h1 ><span>Task Manager App</span></h1><br />
-        <p> <h2>Welcome...😊</h2> To our Task Manager app📝⏳ here you can simply write, update and delete your tasks Seamlessly with ease and efficiency and to stay productive and in control of your workload. </p>
+        <h1 > Task Manager App</h1><br /><br />
+        <h2>Welcome...😊</h2><p> To our Task Manager app📝⏳ here you can simply write, update and delete your tasks Seamlessly with ease and efficiency and to stay productive and in control of your workload. </p>
 
         </div>
         

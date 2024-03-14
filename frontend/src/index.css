@@ -13,21 +13,36 @@ body {
 }
 
 .container {
+  
   max-width: 600px;
   margin: auto;
-  padding: 0 1rem;
+  padding: 0rem;
 }
 
 h1 {
-  margin-top: 1rem;
+  margin-top: -4rem;
   text-align: center;
+  font-size: 2em;
+  font-weight: bold;
   /* background-color: rgb(198, 194, 183); */
   border-radius: 1%;
   
 }
+h2{
+  color: blueviolet;
+  font-size: 1.8em;
+  
+}
+p{
+  color: navy;
+  
+  display: block;
+  
+}
 
 .top {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -103,4 +118,6 @@ input {
   position: relative;
   cursor: pointer;
 }
+
+
 
