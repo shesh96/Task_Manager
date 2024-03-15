@@ -25,7 +25,7 @@ app.use(cors());
 
 /* WELCOME */
 app.get("/", (req, res) => {
-  res.send("WELCOME TO MY TODO APP BACKEND");
+  res.send("WELCOME..✌to my Task Manager app backend");
 });
 
 /* ROUTES */

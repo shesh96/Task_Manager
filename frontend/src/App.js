@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import Footer from "./components/Footer";
 import Todo from "./components/Todo";
 import { addTodo, deleteTodo, getTodos, updateTodo } from "./utils/HandleApi";
-import { BiColorFill } from "react-icons/bi";
+// import { BiColorFill } from "react-icons/bi";
 
 function App() {
   const [todo, setTodo] = useState([]);
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div className="app">
+      
       <div className="logo2">
       <img src="\logo3.png" alt="Logo"/>
 
@@ -28,7 +30,10 @@ function App() {
       <div className="container">
         
         <div>
+        
         <h1 > Task Manager App</h1><br /><br />
+        
+        
         <h2>Welcome...😊</h2><p> To our Task Manager app📝⏳ here you can simply write, update and delete your tasks Seamlessly with ease and efficiency and to stay productive and in control of your workload. </p>
 
         </div>
@@ -64,6 +69,8 @@ function App() {
           ))}
         </div>
       </div>
+      
+      <Footer/>
     </div>
   );
 }

@@ -12,7 +12,7 @@ const saveTodo = async (req, res) => {
 
   Todo.create({ text })
     .then((data) => {
-      console.log("Todo added successfully !");
+      console.log("Task added successfully !");
       res.send(data);
     })
     .catch((err) => console.log(err));
@@ -22,7 +22,7 @@ const saveTodo = async (req, res) => {
 const updateTodo = async (req, res) => {
   const { _id, text } = req.body;
   Todo.findByIdAndUpdate(_id, { text })
-    .then(() => res.send("Todo updated successfully"))
+    .then(() => res.send("Task updated successfully"))
     .catch((err) => console.log(err));
 };
 
@@ -30,7 +30,7 @@ const updateTodo = async (req, res) => {
 const deleteTodo = async (req, res) => {
   const { _id } = req.body;
   Todo.findByIdAndDelete(_id)
-    .then(() => res.send("Todo deleted successfully"))
+    .then(() => res.send("Task deleted successfully"))
     .catch((err) => console.log(err));
 };
 
