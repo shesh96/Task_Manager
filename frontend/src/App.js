@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Todo from "./components/Todo";
 import { addTodo, deleteTodo, getTodos, updateTodo } from "./utils/HandleApi";
-// import { BiColorFill } from "react-icons/bi";
+// import { BiColorFill } from "react-icons/bi"
 
 function App() {
   const [todo, setTodo] = useState([]);
