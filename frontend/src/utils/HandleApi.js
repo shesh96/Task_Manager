@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const baseurl = "http://localhost:5000";
-const baseurl = "https://taskmanager-c3br.onrender.com";
+const baseurl = "https://task-manager-application-v132.onrender.com";
 
 /* GET ALL TODOS */
 const getTodos = (setTodo) => {
