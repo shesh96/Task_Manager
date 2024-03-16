@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer className="footer">
-            <p>&copy; 2024 Task Manager App. All rights reserved @shesh</p>
+            <p> <em>&copy; 2024 Task Manager App. All rights reserved </em> <em><b>@shesh</b></em></p>
         </footer>
     )
 }
